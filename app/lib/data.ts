@@ -76,7 +76,6 @@ export async function fetchCardData() {
 
 const ITEMS_PER_PAGE = 6;
 export async function fetchFilteredInvoices(query: string, currentPage: number) {
-  console.log("EASY-E",query,currentPage)
   const offset = (currentPage - 1) * ITEMS_PER_PAGE;
 
   try {
